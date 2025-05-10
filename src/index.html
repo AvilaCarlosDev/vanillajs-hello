@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Bienvenido al Generador de Nombres de Dominio</title>
 
     <!-- Fontawesome is our recomended library for icons -->
     <link
@@ -15,21 +15,22 @@
     />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
+      <h1 class="mt-5">Bienvenido al Generador de Nombres de Dominio</h1>
+      <img src="./assets/img/rigo-baby.jpg" class="mb-4" />
+      <p class="alert alert-info mt-4">
+        Haz clic en el botón para generar un nombre de dominio aleatorio.
       </p>
+      <button id="generate-btn" class="btn btn-primary mb-3">
+        Generar Dominio
+      </button>
+      <div id="domain-result" class="h3 text-success mt-3"></div>
       <div class="fixed-bottom p-4">
         Made with ❤️ by
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
       </div>
     </div>
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
   </body>
 </html>
